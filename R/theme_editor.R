@@ -1,15 +1,4 @@
-colhex2col <- function(colhex) {
-  # Convert hex to RGB
-  mycol   <- grDevices::col2rgb(colhex)
-  # Convert all x11 colors to RGB, adn transform
-  all_colors <- data.frame(grDevices::col2rgb(grDevices::colors()))
-  all_colors <- stats::setNames(all_colors, grDevices::colors())
 
-  by_rgb <- data.frame(t(all_colors))
-  by_rgb <- sort(apply(by_rgb,1, function(x) sum(abs(x - mycol)) ))
-
-  names(by_rgb[1])
-}
 
 
 #' Starts the model viewer in RStudio
@@ -106,7 +95,6 @@ custom_theme_addin <- function() {
 
 
   server <- function(input, output, session) {
-
 
     rv <- shiny::reactiveValues()
     rv$sem <- 0
