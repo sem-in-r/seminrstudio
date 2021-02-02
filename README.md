@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/sem-in-r/seminrstudio/workflows/R-CMD-check/badge.svg)](https://github.com/sem-in-r/seminrstudio/actions)
 <!-- badges: end -->
 
 The goal of seminrstudio is to …
