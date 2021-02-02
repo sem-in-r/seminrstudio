@@ -24,7 +24,17 @@ You can install the released version of seminrstudio from
 install.packages("seminrstudio")
 ```
 
+Alternatively you can install seminrstudio directly from Github.
+
+``` r
+if(!require(remotes)) {
+  install.packages("remotes")
+}
+remotes::install_github("sem-in-r/seminrstudio")
+```
+
 ## Usage
 
-The following tools are implemented at the moment: - Theme Editor: A
-tool to design a seminr\_theme
+The following tools are implemented at the moment:
+
+  - Theme Editor: A tool to design a seminr\_theme
