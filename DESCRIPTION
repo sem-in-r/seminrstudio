@@ -1,12 +1,14 @@
 Package: seminrstudio
 Title: seminrstudio provides a interactive interface to the seminr package
-Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+Version: 0.0.1
+Authors@R: c(person("André", "Calero Valdez", role = c("aut", "cre"), email = "andrecalerovaldez@gmail.com"),
+             person("Johannes", "Nakayama", role = "ctr", email = "johannes.nakayama@rwth-aachen.de"),
+             person("Soumya", "Ray", email = "soumya.ray@gmail.com", role = c("ctr")),
+             person("Nicholas Patrick", "Danks", email = "nicholasdanks@hotmail.com", role = c("ctr")),
+             person("Juan Manuel Velasquez", "Estrada", role = "ctr"),
+             person("James", "Uanhoro", role = "ctr", email = "James.uanhoro@gmail.com"),
+             person("Arturo Heynar Cano", "Bejar", role = "ctr", email = "arturocano997@gmail.com")
+             )
 Description: What the package does (one paragraph).
 License: GPL (>= 3)
 Encoding: UTF-8
