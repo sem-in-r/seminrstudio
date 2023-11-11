@@ -3,13 +3,13 @@
 
 # seminrstudio
 
-<!-- badges: 
-[![R-CMD-check](https://github.com/sem-in-r/seminrstudio/workflows/R-CMD-check/badge.svg)](https://github.com/sem-in-r/seminrstudio/actions) start -->
+<!-- badges: start -->
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/seminrstudio)](https://CRAN.R-project.org/package=seminrstudio)
 [![Codecov test
 coverage](https://codecov.io/gh/sem-in-r/seminrstudio/branch/master/graph/badge.svg)](https://codecov.io/gh/sem-in-r/seminrstudio?branch=master)
+[![R-CMD-check](https://github.com/sem-in-r/seminrstudio/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sem-in-r/seminrstudio/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of seminrstudio is to to provide a UI based interface to the
