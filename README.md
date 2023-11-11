@@ -3,9 +3,9 @@
 
 # seminrstudio
 
-<!-- badges: start -->
+<!-- badges: 
+[![R-CMD-check](https://github.com/sem-in-r/seminrstudio/workflows/R-CMD-check/badge.svg)](https://github.com/sem-in-r/seminrstudio/actions) start -->
 
-[![R-CMD-check](https://github.com/sem-in-r/seminrstudio/workflows/R-CMD-check/badge.svg)](https://github.com/sem-in-r/seminrstudio/actions)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/seminrstudio)](https://CRAN.R-project.org/package=seminrstudio)
 [![Codecov test
@@ -17,14 +17,7 @@ The goal of seminrstudio is to to provide a UI based interface to the
 
 ## Installation
 
-You can install the released version of seminrstudio from
-[CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("seminrstudio")
-```
-
-Alternatively you can install seminrstudio directly from Github.
+You can install seminrstudio directly from Github.
 
 ``` r
 if(!require(remotes)) {
@@ -33,8 +26,19 @@ if(!require(remotes)) {
 remotes::install_github("sem-in-r/seminrstudio")
 ```
 
+Someday, you will be able to install the released version of
+seminrstudio from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("seminrstudio")
+```
+
+But not yet. :(
+
 ## Usage
 
 The following tools are implemented at the moment:
 
-  - Theme Editor: A tool to design a seminr\_theme
+- Theme Editor: A tool to design a seminr_theme. Install the package.
+  Load it once and you should have a new RStudio “Addin”.
+  ![](rstudio.png)
