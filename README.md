@@ -33,7 +33,7 @@ seminrstudio from [CRAN](https://CRAN.R-project.org) with:
 install.packages("seminrstudio")
 ```
 
-But not yet. :(
+But not yet. :-(
 
 ## Usage
 
